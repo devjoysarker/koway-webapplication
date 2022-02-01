@@ -1,0 +1,594 @@
+@font-face {
+    src: url(CircularStd-Medium.ttf);
+    font-family: Circular Std;
+}
+
+body {
+    font-family: Circular Std;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/* header */
+.manu ul {
+    margin-right: 75px;
+}
+
+.header {
+    background: url(https://www.devsnews.com/template/koway/koway/assets/img/shape/16.png) no-repeat top right;
+    height: 983px;
+}
+
+
+.manu ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 52px 25px;
+    font-size: 17px;
+    transition: .5s;
+}
+
+.manu ul li ul {
+    left: 33%;
+    top: 130%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    z-index: 1;
+    background: white;
+}
+
+.manu ul li ul li a {
+    padding: 8px 15px;
+    padding-right: 55px;
+}
+
+.manu ul li a i {
+    position: relative;
+    top: 3px;
+    left: 2px;
+    transition: .5s;
+}
+
+.manu ul li:hover>a {
+    color: #0071DC;
+}
+
+.manu ul li:hover ul {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.manu ul li a i:hover {
+    color: #0071DC;
+}
+
+.manubutton button {
+    font-size: 15px;
+    padding: 15px 35px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.manubutton button::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #003373;
+    z-index: -1;
+    left: auto;
+    top: 0;
+    right: 0;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.manubutton button:hover {
+    color: white;
+}
+
+.manubutton button:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.manubutton button i {
+    position: relative;
+    left: 4px;
+    transition: .5s;
+}
+
+.manubutton button:hover i {
+    transform: translate(10px);
+}
+
+.dropdown2 {
+    left: 56% !important;
+}
+
+.dropdown3 {
+    left: 64% !important;
+}
+
+/* banar */
+
+.content14 a {
+    padding: 14px 33px;
+    display: inline-block;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.content14 a i {
+    transition: .5s;
+    position: relative;
+    left: 3px;
+}
+
+.content14 a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #003373;
+    z-index: -1;
+    left: auto;
+    top: 0;
+    right: 0;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.content14 a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.content14 a:hover i {
+    transform: translate(10px);
+}
+
+.content1 h1 {
+    font-size: 57px;
+}
+
+.imgdiv {
+    max-width: 100%;
+    margin-top: 118px;
+}
+
+
+
+.content1 {
+    padding: 186px 0px;
+}
+
+.icon1 {
+    background: #FEB100;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    border-radius: 50%;
+    line-height: 100px;
+    color: white;
+    box-shadow: 0px 0px 20px 0px #feb100d6;
+}
+
+.icon2 {
+    font-size: 26px;
+    transition: .8s;
+}
+
+.content2 h1 {
+    width: 41%;
+    font-size: 3.55vw;
+}
+
+.icon2:hover {
+    color: red;
+    transform: scale(1.4);
+}
+
+.content3 {
+    transition: .5s;
+}
+
+.content3:hover {
+    transform: translateY(20px);
+}
+
+.bg-dabol {
+    box-shadow: 0px 0px 20px 0px #0D6EFD;
+    line-height: 85px;
+}
+
+.redshado {
+    box-shadow: 0px 0px 20px 0px #E92E40;
+}
+
+.greenbg {
+    background: #96CA6F;
+    box-shadow: 0px 0px 20px 0px #96CA6F;
+}
+
+.garybg {
+    background: #f3f9ff;
+}
+
+
+.logo i {
+
+    width: 80px;
+
+    height: 80px;
+
+    line-height: 80px;
+}
+
+.botton66 a {
+    padding: 14px 17px;
+}
+
+.animate__animated.animate__shakeY {
+    animation-duration: 10s;
+
+}
+
+.veritatis {
+    background: url(https://www.devsnews.com/template/koway/koway/assets/img/bg/subscribe-02.jpg);
+}
+
+.content16 h1 {
+    font-size: 48px;
+}
+
+.content21 {
+
+    width: 422px;
+
+    border-radius: 14px;
+}
+
+.content18 i {
+
+    bottom: 28px;
+
+    right: 85px;
+
+    height: 35px;
+
+    width: 35px;
+
+    line-height: 35px;
+}
+
+.iocunik {
+    font-size: 153px;
+    top: 21px;
+    right: 8%;
+
+    color: #0000001f;
+}
+
+.button55:hover {
+    background: #0071DC;
+}
+
+.button55 {
+
+    height: 60px;
+
+    width: 60px;
+
+    background: #0976fd;
+
+    margin-left: -1% !important;
+}
+
+.star {
+    margin-right: -1% !important;
+}
+
+.address {
+    background: url(https://www.devsnews.com/template/koway/koway/assets/img/bg/subscribe-02.jpg);
+}
+
+.formall {
+    max-width: 775px;
+}
+
+.formall input {
+
+    padding-right: 325px !important;
+
+    padding: 18px 28px;
+}
+
+.formall input:focus {
+    outline: none !important;
+}
+
+.content885 h6 a {
+
+    text-decoration: none;
+
+    color: #969696;
+
+    display: inline-block;
+
+    padding: 6px 0px;
+
+    transition: 1s;
+}
+
+.content885 h6 a i {
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+    margin-right: -10px;
+}
+
+.content885 h5 {
+    padding-bottom: 15px;
+}
+
+.content885 h6 a:hover {
+    color: #0071DC;
+
+}
+
+.content885 h6 a:hover i {
+    visibility: visible;
+    opacity: 1;
+    color: #0071DC;
+    margin-right: 8px;
+}
+
+.content99 i {
+    background: white;
+    border-radius: 50%;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.contantss55 img {
+
+    margin: 3px;
+
+    position: relative;
+
+    width: 83px;
+}
+
+.contantss55 {
+
+    width: 280px;
+}
+
+/* .contantss55 img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.37);
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    z-index:1;
+
+} */
+
+/* .contantss55 img:hover::before {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.contenr102 h1 {
+
+    font-size: 50px;
+}
+
+.contenr102 b {
+
+    color: #7A7A7A;
+
+    font-size: 24px;
+
+    font-weight: normal;
+}
+
+.content109 h6 {
+    padding: 15px 27px;
+    text-align: center;
+}
+
+
+
+
+
+.content109 h1 {
+
+    font-size: 64px;
+    color: #0172dc;
+}
+
+.content109 h6 i {
+    color: #0172dc;
+    margin-right: 8px;
+}
+
+.content109:hover {
+    background: #0171DC;
+    color: white;
+}
+
+.content109 a {
+    border: 2px solid transparent;
+    transition: .8s;
+    padding: 15px 36px;
+}
+
+.content109 a:hover {
+    border: 2px solid white;
+    background: #0171DC;
+    color: white;
+}
+
+.content109:hover h1 {
+    color: white;
+}
+
+.content109:hover h6 i {
+    color: white;
+}
+
+.content109 a i {
+
+    margin-left: 7px;
+    transition: .8s;
+
+}
+
+.content109 a:hover i {
+    transform: translateX(10px);
+}
+
+.content109 {
+    transition: .8s;
+}
+
+.content109 b {
+    background: #FFC221;
+    top: 0;
+    transform: rotate(270deg);
+    left: 70%;
+}
+
+.imgaass i {
+    top: 3px;
+    left: 3px;
+    background: #1c243e9c;
+    text-align: center;
+    line-height: 85px;
+    width: 92%;
+    height: 91%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .8s;
+    transform: scale(0);
+    font-size: 22px;
+}
+
+.imgaass:hover i {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media(max-width:1199px) {
+    .content885 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .contantss55 {
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .content109 b {
+        left: 78%;
+    }
+
+    .button55 {
+
+        margin-left: -5% !important;
+    }
+
+    .star {
+        margin-right: -3% !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .manu ul {
+        margin-right: 40px;
+    }
+
+    .manu ul li a {
+        padding: 52px 11px;
+        font-size: 18px;
+
+    }
+
+    .content1 {
+        padding: 65px 0px;
+    }
+
+}
+
+@media(max-width:991px) {
+    .carousel button {
+        display: none;
+    }
+
+    .imgdiv {
+        display: none;
+    }
+
+    .conten4 {
+        margin-top: 80px;
+    }
+
+    .img18 {
+        margin: 32px 0px 0px -32px;
+    }
+
+    .Custom h1 {
+        font-size: 28px;
+    }
+
+    .formall input {
+        padding-right: 11% !important;
+        padding: 20px 24px;
+    }
+
+    .content18 i {
+        bottom: 76px;
+        right: 9px;
+
+    }
+
+    .iocunik {
+        font-size: 70px;
+
+
+    }
+
+    .content19 h4 {
+        font-size: 14px;
+    }
+
+    .content21 {
+        padding: 30px !important;
+    }
+
+    .header {
+        background: none;
+        height: auto;
+    }
+}
